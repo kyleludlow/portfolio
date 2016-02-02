@@ -187,18 +187,17 @@ hr.custom-rule {
 /*Device Responsive*/
 
 @media screen and (max-width: 500px) {
-  .masthead {
-    padding: 3em 0;
-  }
-  .header-name {
-    font-size: 3em;
-  }
-  .header-job-title {
-    font-size: 1.25em;
-  }
-  .container > ul > li {
-  	padding-top: 1em;
-  	width: 100%;
-
-  }
+	.masthead {
+    	padding: 3em 0;
+  	}
+  	.header-name {
+    	font-size: 3em;
+  	}
+  	.header-job-title {
+    	font-size: 1.25em;
+  	}
+	.container > ul > li {
+  		padding-top: 1em;
+  		width: 100%;
+	}
 }
