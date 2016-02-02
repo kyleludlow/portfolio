@@ -17,6 +17,14 @@ ul {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
 /*Shared Classes*/
 
 
@@ -37,6 +45,7 @@ ul {
 
 
 /*Header*/
+
 
 .masthead {
 	padding: 5em 0;
@@ -68,6 +77,7 @@ ul {
 
 /*About Me*/
 
+
 .about-me-section {
 	margin-top: 5em;
 }
@@ -84,6 +94,19 @@ ul {
 	text-spacing: 0.2em; 
 }
 
+
+/*Horizontal Rule*/
+
+
+hr.custom-rule { 
+  margin-top: 5em;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+} 
 
 
 /*Projects Section*/
@@ -120,11 +143,43 @@ ul {
 	padding-top: 0.75em;
 }
 
+
 /*Footer Section*/
+
 
 .social {
 	margin-top: 5em;
   	padding: 4em 0;
+  	text-align: center;
 	background-color: rgb(113, 89, 67);
+}
 
+.social > p {
+	text-spacing: 0.5em;
+	font-size: 1.3em;
+	color: white;
+}
+
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
+	text-align: center;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter > a {
+    color: rgb(194, 216, 210); 
+}
+.social .github > a {
+    color: rgb(194, 216, 210);
+}
+.social .codepen > a {
+    color: rgb(194, 216, 210);
 }
